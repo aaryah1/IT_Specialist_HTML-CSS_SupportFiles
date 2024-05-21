@@ -2,71 +2,52 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Positioning Example</title>
-    <style>
-        #blue {
-            background-color: lightblue;
-            border: 1px solid black;
-            width: 250px;
-            height: 250px;
-            float:left;
-            text-align:left;
-            padding:.5em;
-        }
-        #yellow {
-            background-color: yellow;
-            border: 1px solid black;
-            width: 250px;
-            height: 250px;
-            float:left;
-            /*clear:both;
-            position:absolute;
-            top:100px;
-            left:100px;*/
-            text-align:center;
-            margin: 0px 10px 0px 5px;
-            padding-top:.5em;
-        }
-        #coral {
-            background-color: lightcoral;
-            border: 1px solid black;
-            width: 250px;
-            height: 250px;
-            /*max-width:750px;*/
-            position:relative;
-            top:100px;
-            overflow:scroll;
-            text-align:justify;
-            visibility:hidden;
-        }
-    </style>
+    <title>THE Music Store - Spotlight</title>
+    <link rel="stylesheet" type="text/css" href="53c-main.css" />
 </head>
 <body>
-    <div id="blue">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
-        Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-
-    </div>
-    <div id="yellow">
-        Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
-        Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
-        Fusce aliquet pede non pede. Suspendisse dapibus lorem pellentesque magna. Integer nulla.
-        <p onclick="javascript:document.getElementById('coral').style.visibility='visible'";>Click to see the coral box</p>
-
-    </div>
-    <div id="coral">
-        Donec blandit feugiat ligula. Donec hendrerit, felis et imperdiet euismod, purus ipsum pretium metus, in lacinia nulla nisl eget sapien. Donec ut est in lectus consequat consequat.
-        Etiam eget dui. Aliquam erat volutpat. Sed at lorem in nunc porta tristique.
-        Proin nec augue. Quisque aliquam tempor magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-        Nunc ac magna. Maecenas odio dolor, vulputate vel, auctor ac, accumsan id, felis. Pellentesque cursus sagittis felis.
-        Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus. Vivamus a mi.
-        Morbi neque. Aliquam erat volutpat. Integer ultrices lobortis eros.
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam.
-        Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi. In in nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.
-        Donec ullamcorper fringilla eros. Fusce in sapien eu purus dapibus commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-
-    </div>
+    <header>
+        <h2>This month's instrument: The Kazoo</h2>
+        <h3>The instrument to where you make the noise</h3>
+    </header>
+    <figure>
+        <img src="Images/Kazoo.jpg" width="375" height="252" />
+        <figcaption>The Mighty Kazoos</figcaption>
+    </figure>
+    <section>
+        <article>
+            <p>
+                The kazoo is a rather unique instrument in that a person
+                hums into it in order to get it to make noise.
+            </p>
+            <p>
+                The kazoo is known as a membranophone instrument, which is a
+                family of instruments to where a vibrating membrane makes
+                the noise.
+            </p>
+            <p>
+                <aside id="sidenote">
+                    Come in and sign up for a free kazoo demonstration
+                    Saturday, August 5 at 10 a.m.
+                </aside>
+            </p>
+            <p>
+                The Kazoo originates in Africa
+                and dates back hundreds of years.
+            </p>
+            <p>
+                Kazoos can be made out of metal, plastic,
+                or even through toilet paper tubes as a do-it-yourself project.
+            </p>
+        </article>
+        <p><a href="https://en.wikipedia.org/wiki/Kazoo" target="_blank">More on kazoos</a></p>
+    </section>
+    <footer>
+        <nav>
+            <a href="index.html">Home</a> | Books | Contact Us
+        </nav>
+        &copy;2017, THE Music Store
+        1000 Broadway, Salt Lake City, UT 84103
+    </footer>
 </body>
 </html>
