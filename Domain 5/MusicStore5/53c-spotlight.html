@@ -1,57 +1,53 @@
-﻿body {
-    font-family:'Segoe UI', Tahoma, sans-serif;
-    background-color: #f7d2aa
-}
-p {
-    color: navy;
-}
-
-/* The background color is extending across the page,
-    so I have commented it out for now. */
-h1,h2,h3,h4,h5,h6 {
-    font-family:Helvetica,Arial,sans-serif;
-}
-
-figcaption {
-    font-weight: bold;
-    background-color: #AAEEFF;
-    display:inline;
-    color:#032f0d;
-}
-.sale {
-    background-color: #AAEEFF;
-    font-style:italic;
-    font-weight:bold;
-}
-.indent {
-    padding:5em;
-}
-#sidenote {
-    background-color: #DDDDDD;
-    display:inline;
-    /*border-color:navy;
-    border-style:dashed;
-    border-width: 0px;
-    border-left-width: 2px;
-    border-right-width: 2px;*/
-    border: 2px solid navy;
-}
-a {
-    text-decoration: none;
-    color:darkgreen;
-}
-a:active {
-    color:#63f60a;
-}
-a:visited {
-    color:#808080;
-}
-a:hover {
-    text-decoration: double;
-    font-weight: bold;
-    font-family: 'Palatino Linotype','Times New Roman', serif;
-}
-td.vbot {
-    vertical-align:bottom;
-    height:30px;
-}
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>THE Music Store - Spotlight</title>
+    <link rel="stylesheet" type="text/css" href="53c-main.css" />
+</head>
+<body>
+    <header>
+        <h2>This month's instrument: The Kazoo</h2>
+        <h3>The instrument to where you make the noise</h3>
+    </header>
+    <figure>
+        <img src="Images/Kazoo.jpg" width="375" height="252" />
+        <figcaption>The Mighty Kazoos</figcaption>
+    </figure>
+    <section>
+        <article>
+            <p>
+                The kazoo is a rather unique instrument in that a person
+                hums into it in order to get it to make noise.
+            </p>
+            <p>
+                The kazoo is known as a membranophone instrument, which is a
+                family of instruments to where a vibrating membrane makes
+                the noise.
+            </p>
+            <p>
+                <aside id="sidenote">
+                    Come in and sign up for a free kazoo demonstration
+                    Saturday, August 5 at 10 a.m.
+                </aside>
+            </p>
+            <p>
+                The Kazoo originates in Africa
+                and dates back hundreds of years.
+            </p>
+            <p>
+                Kazoos can be made out of metal, plastic,
+                or even through toilet paper tubes as a do-it-yourself project.
+            </p>
+        </article>
+        <p><a href="https://en.wikipedia.org/wiki/Kazoo" target="_blank">More on kazoos</a></p>
+    </section>
+    <footer>
+        <nav>
+            <a href="index.html">Home</a> | Books | Contact Us
+        </nav>
+        &copy;2017, THE Music Store
+        1000 Broadway, Salt Lake City, UT 84103
+    </footer>
+</body>
+</html>
