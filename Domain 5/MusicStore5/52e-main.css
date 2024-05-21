@@ -1,5 +1,5 @@
-﻿body {
-    font-family:'Segoe UI', Tahoma, sans-serif;
+body {
+font-family:'Segoe UI', Tahoma, sans-serif;
     background-color: #f7d2aa
 }
 p {
@@ -29,6 +29,13 @@ figcaption {
 }
 a {
     text-decoration: none;
+    color: darkgreen;
+}
+a:active{
+    color:#63f60a;
+}
+a:visited{
+    color:#808080;
 }
 a:hover {
     text-decoration: underline;
