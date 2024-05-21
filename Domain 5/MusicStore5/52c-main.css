@@ -1,4 +1,3 @@
-﻿body {
     font-family:'Segoe UI', Tahoma, sans-serif;
     background-color: #f7d2aa
 }
@@ -20,6 +19,8 @@ figcaption {
 }
 .sale {
     background-color: #AAEEFF;
+    font-style: italic;
+    font-weight: bold;
 }
 #sidenote {
     background-color: #DDDDDD;
