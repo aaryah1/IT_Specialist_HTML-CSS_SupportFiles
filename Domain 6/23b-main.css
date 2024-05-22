@@ -1,4 +1,4 @@
-﻿body
+﻿﻿body
 {
     font-family:"Segoe UI",Tahoma,sans-serif;
     background-color:#fab66b;
@@ -9,10 +9,11 @@ p {
 a {
     text-decoration:none;
 }
+/*The background color extends across the page, so, we have commented it out for now*/
 figcaption {
     color: navy;
     font-weight: bold;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 a:hover {
     text-decoration:underline;
