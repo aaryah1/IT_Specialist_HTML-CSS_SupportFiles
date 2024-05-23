@@ -5,3 +5,12 @@ ul{
   overflow:hidden;
   background-color:#777777;
 }
+li{
+  float: left;
+}
+li a, .dropButton{
+  display: inline-block;
+  color: pink;
+  text-align: center;
+  padding: 12px 14px;
+}
